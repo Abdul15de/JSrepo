@@ -16,7 +16,7 @@
 // value of let declared can be changed but cannot redeclared
 
 // t=15; //cahanging value of t
-// console.log(t); // 15 becoz valie can be changed
+// console.log(t); // 15 becoz value can be changed
 
 
 
@@ -26,6 +26,7 @@
 // *****  CONST
 
  // error because no value(either same or different) can be reassigned to const variable
+//  const num = 30;
 // num = num + 1;//error
 // num = 30; // error
 // console.log(num); //error due to error in above lines 
