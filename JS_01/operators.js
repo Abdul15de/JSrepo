@@ -33,14 +33,19 @@ console.log('acb' > 'acx');
 console.log('acx' > 'acb');
 */    
 
+
+// ***special cases
+/*
 console.log("" == " ");//false
 console.log(null == undefined);// true
-
+*/
 
 // *******  TRUTHY AND FALSY VALUE *******
 //EVERYTHIG IN JS IS EITHER TURE OR FALSE(IN BOOLEAN CONTEXT)
 
 // THESE ARE HAVINS FALSE VALUES
+
+/*
 console.log(Boolean("")); //false
 console.log(Boolean(0)); //false
 console.log(Boolean(-0)); //false
@@ -57,4 +62,4 @@ console.log(Boolean(124));
 console.log(Boolean(-345));
 
 
-
+*/
