@@ -125,11 +125,11 @@ console.log(text.padEnd(10 , "1")); // abdul11111
 console.log(text.padStart(10 , String(1))); // 11111abdul -> 1 convertd to "1"
 */
 
-// *****  for repalce() The replace() method replaces a specified value with another value in a string                                                                                                                       ******
-
-let text = "Please visit Microsoft!";
-console.log()
-
+// *****  for repalce() The replace() method replaces a specified value with another value in a string 
+ // there are many method but it takes lot of time so study from documentation(W3Schools);
+ 
+let a = 0;
+console.log(a);
 
 
 
