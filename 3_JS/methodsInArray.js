@@ -97,6 +97,39 @@ console.log(name); //[ 'Ali', 'Alok', 'Atul', 'dora', 'Oggy' ] splice changes th
 
 */
 
-// **********
+// **********  SORT for sorting  *************  
+
+
+/*
+let days = ["Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"];
+days.sort();
+console.log(days); // sort the days array from their first letter.
+
+let num = [111,344,1,43,20];
+num.sort();
+console.log(num); // [ 1, 111, 20, 344, 43 ] here 111 comes b4 20 and 344 comes b4 43 because sort() converts them to string and then sorts them.
+
+*/
+
+//  *************  ARRAY REFERENCES   **********
+
+// array is stored at memory addresses differenet arrays have different memory addresses
+
+let arr1 = [];
+let arr2 = [];
+console.log(arr1 == arr2); // false   The == operator compares the references of the arrays, not their contents. Since arr1 and arr2 are two different objects in memory, the comparison returns false
+console.log(arr1 === arr2); // false reference is checked so false.
+
+// ***  but
+
+let a = [];
+let b = a;
+console.log(a == b); // true
+console.log(a === b); //true
+// now b = a is written then reference of bith a and b becomes same and any change in a is reflected in b and vice versa.
+
+
+
+
 
 
