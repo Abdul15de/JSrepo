@@ -130,6 +130,16 @@ console.log(a === b); //true
 
 
 
+// *******   ASSIGNMENT  ************
+
+// **** TO GET LAST N NUMBERS OF ELEMENTTS IN AN ARRAY e.g-- n=3 so get three elements from the array
+
+let arr = [1 , 2, 3, 4, 5];
+let n = 2;
+console.log(arr.slice(arr.length-n));
+console.log(arr.slice(-n));
+
+
 
 
 
