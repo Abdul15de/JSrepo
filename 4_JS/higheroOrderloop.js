@@ -53,5 +53,6 @@ for(items of list)
 
 */
 
+// *** checking for col=nsole.log
 let out = console.log("enter yuor name");
-console.log(out); // undefined because it cannot be taken.
+console.log(out); // undefined because it cannot be taken. illogical
