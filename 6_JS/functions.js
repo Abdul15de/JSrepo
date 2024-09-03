@@ -192,6 +192,70 @@ console.log(sum(10, 100)); //110
 */
 
 //   ******** HIGHER ORDER FUNCTIONS  *********
-// ********** METHDS ******
-// *****skipped......to be done 
+// A funvtion that takes one ormore than one  function as argument or returns a function or does both is called higher order function
+
+
+/*
+// when a function takes a function as argument 
+
+function print(hello, n)
+{
+
+    for(let i=1; i<=n; i++)
+    {
+        hello();
+    }
+
+}
+function hello()
+{
+    console.log("hello");
+}
+
+print(hello, 5); 
+// hello
+// hello
+// hello
+// hello
+// hello
+*/
+
+// when function returns a function ****skipped
+
+
+
+
+
+// ********** METHODS ******
+// functiions defined in objects are called Methods
+
+const calculator = 
+{
+    add: function(a, b) // it can also be written as add function(a, b) ....
+    {
+        console.log(a + b);
+    },
+
+    sub: function(a, b)
+    {
+        console.log(a - b);
+    },
+
+    mul: function(a, b)
+    {
+        console.log(a * b);
+    }
+
+    
+
+}
+calculator.add(10, 20); // 30
+calculator.sub(10, 20); //-10
+calculator.mul(10, 20); //200
+
+
+
+
+
+
 
