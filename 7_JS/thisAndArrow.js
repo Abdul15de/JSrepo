@@ -178,6 +178,8 @@ let id = setInterval( () =>
 setTimeout( () => 
     {
         clearInterval(id);
-    }, 11000) // here 10000 means 5 * 2000 becoz 5 baar print karega to us time 10000s hi hoga or usi time stop karna hai 
+    }, 11000) // here 11000 means 5 * 2000 becoz 5 baar print karega to us time 10000s hi hoga or usi time stop karna hai to usi time stop kardega isliye 4 baar print karega but 11000  karne se jab 5vi baar print kar dega uske ek sec baad print kar dega
+    
+     
 
 
